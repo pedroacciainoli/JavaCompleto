@@ -1,4 +1,5 @@
-package pedrodev.live.maratonajava.exercicios;
+package pedrodev.live.maratonajava.exercicios_lista01;
+
 import java.util.Scanner;
 
 public class lista01_ex01 {
@@ -14,7 +15,7 @@ public class lista01_ex01 {
         System.out.printf("Informe a idade em anos:\n");
         int year = daysMonthYear.nextInt();
 
-        System.out.println("Total de dias =  " + (day + (month*30) + (year*365)) );
+        System.out.println("Total de dias =  " + (day + (month * 30) + (year * 365)));
 
 
     }

@@ -1,4 +1,4 @@
-package pedrodev.live.maratonajava.exercicios;
+package pedrodev.live.maratonajava.exercicios_lista01;
 
 public class lista01_ex02 {
 

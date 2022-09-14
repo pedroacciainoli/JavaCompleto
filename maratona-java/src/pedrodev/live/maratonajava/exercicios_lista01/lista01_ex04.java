@@ -1,4 +1,4 @@
-package pedrodev.live.maratonajava.exercicios;
+package pedrodev.live.maratonajava.exercicios_lista01;
 
 public class lista01_ex04 {
     /*Escrever um algoritmo que lê:
@@ -22,7 +22,7 @@ public class lista01_ex04 {
         float valuecod02 = 3695F;
         int qtdcod02 = 62;
 
-        float payTotalValue = ((valuecod01 * qtdcod01) + (valuecod02 * qtdcod02) * (ipi / 100) + 1 );
+        float payTotalValue = ((valuecod01 * qtdcod01) + (valuecod02 * qtdcod02) * (ipi / 100) + 1);
 
         System.out.println("Total a ser pago pelas peças é: " + payTotalValue);
 
