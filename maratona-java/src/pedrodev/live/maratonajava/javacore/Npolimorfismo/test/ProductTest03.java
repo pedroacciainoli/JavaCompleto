@@ -16,11 +16,14 @@ public class ProductTest03 {
         TaxCalc.TaxCalc(tomato);
         TaxCalc.TaxCalc(product);
 
+        tomato.setValidData("22/10/2022");
+
 
       /*  Product product = new Computer("Name",300);  // Polymorphism
         Computer computer = (Computer)product;
         System.out.println(computer.taxCalc());
 */
+
     }
 
 

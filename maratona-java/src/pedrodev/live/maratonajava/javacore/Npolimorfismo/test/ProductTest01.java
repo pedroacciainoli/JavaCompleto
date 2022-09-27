@@ -15,6 +15,8 @@ public class ProductTest01 {
 
         TaxCalc.TaxCalc(computer);
         TaxCalc.TaxCalc(tomato);
+
+
         TaxCalc.TaxCalc(tv);
     }
 }
