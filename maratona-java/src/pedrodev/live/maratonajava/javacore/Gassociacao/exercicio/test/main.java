@@ -7,25 +7,25 @@ import pedrodev.live.maratonajava.javacore.Gassociacao.exercicio.domain.Teacher;
 
 public class main {
     public static void main(String[] args) {
+
+
+
         Local local = new Local("USA");
 
-        Seminar seminar = new Seminar("Curso Pra Maluco", local);
-        Seminar seminar2 = new Seminar("Doidera Boa", local);
+        Student student = new Student("Mario",19);
 
-        Seminar[] seminars = {seminar,seminar2};
+        Teacher teacher = new Teacher("Julio","Medicina");
 
-        Student student = new Student("Marcelo",32,seminar);
-
-        Teacher teacher = new Teacher("Julio","Medicina",seminars);
+        Student[] students = {student};
 
 
-        System.out.println("-----------LOCAL-------------");
-        local.print();
-        System.out.println("-----------SEMINARS----------");
-        seminar.print();
-        System.out.println("-----------STUDENT----------");
-        student.print();
-        System.out.println("------------TEACHER-----------");
+        Seminar seminar = new Seminar("Como ser feliz",students,local);
+
+        Seminar[] seminars = {seminar};
+
+        teacher.setSeminars(seminars);
+
+
         teacher.print();
 
 

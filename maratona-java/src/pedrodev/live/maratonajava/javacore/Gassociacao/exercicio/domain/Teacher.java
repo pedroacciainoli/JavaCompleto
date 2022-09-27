@@ -7,6 +7,11 @@ public class Teacher {
     private Seminar[] seminars;
 
 
+    public Teacher(String name, String specialty) {
+        this.name = name;
+        this.specialty = specialty;
+    }
+
     public Teacher(String name, String specialty, Seminar[] seminars) {
         this.name = name;
         this.specialty = specialty;
@@ -20,6 +25,12 @@ public class Teacher {
         for (Seminar seminar : seminars) {
             System.out.println(seminar.getTitle());
             System.out.println(seminar.getLocal().getAddress());
+            if (seminar.getStudents() == null) continue;
+            for (Student student : seminar.getStudents()) {
+                System.out.println(student.getName());
+                System.out.println(student.getAge());
+            }
+
         }
 
 
