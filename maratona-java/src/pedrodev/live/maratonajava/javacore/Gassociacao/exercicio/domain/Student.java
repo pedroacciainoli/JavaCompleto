@@ -5,6 +5,11 @@ public class Student {
     private int age;
     private Seminar seminar;
 
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
     public Student(String name, int age, Seminar seminar) {
         this.name = name;
         this.age = age;
