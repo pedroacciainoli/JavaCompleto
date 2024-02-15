@@ -21,9 +21,9 @@ public class LampadaTeste {
         System.out.println(lamp02);
 
         if (lamp01.getValor() > lamp02.getValor()) {
-            System.out.println("Lâmpada 01 mais cara que a lâmpada 02");
+            System.out.println("Lâmpada 01 é mais cara que a lâmpada 02");
         } else {
-            System.out.println("Lâmpada 02 mais cara que a lâmpada 01");
+            System.out.println("Lâmpada 02 é mais cara que a lâmpada 01");
         }
 
 
